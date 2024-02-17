@@ -96,3 +96,36 @@ while(contador < numero){
     contador++
     console.log(contador);
 };*/
+
+//1
+console.log ("Boas-vindas")
+//2
+var nome = "Yago Elon";
+console.log(`Olá ${nome}`);
+//3
+alert (`Olá ${nome}`);
+//4
+var linguagemProg = prompt ("Qual a linguagem de programação que você mais gosta?")
+
+console.log(linguagemProg);
+//5
+//var valor1 = 1;
+//var valor2 = 5;
+//var resultado = (valor1 + valor2);
+//
+//console.log (`A soma de ${valor1} e ${valor2} é igual a ${resultado}.`)
+//6
+var valor1 = 1;
+var valor2 = 5;
+var resultado = (valor1 - valor2);
+
+console.log (`A subtração de ${valor1} e ${valor2} é igual a ${resultado}.`)
+//7
+var idadeUser = prompt ("Digite a sua idade:");
+
+if (idadeUser>=18){
+    console.log ("Você é maior de idade!!");
+} else {
+    console.log ("Você é menor de idade :(");
+}
+//8
